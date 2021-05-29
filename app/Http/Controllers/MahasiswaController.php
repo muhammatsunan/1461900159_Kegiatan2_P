@@ -14,8 +14,10 @@ class MahasiswaController extends Controller
     public function index()
     {
         $mahasiswa = \App\Models\Mahasiswa::All();
-    return view('mahasiswa0159' , ['mahasiswa' => $mahasiswa]);
+         return view('mahasiswa0159' , ['mahasiswa' => $mahasiswa]);
     }
+  
+
 
     /**
      * Show the form for creating a new resource.

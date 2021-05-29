@@ -23,5 +23,10 @@ class mahasiswaseeder extends Seeder
         $mhs2->nbi = "1461900158";
         $mhs2->nama_mhs = "Dwi Agus Purnomo";
         $mhs2->save();
+
+        $mhs3 = new Mahasiswa();
+        $mhs3->nbi = "1461900157";
+        $mhs3->nama_mhs = "Wahyu Eko Wijayanto";
+        $mhs3->save();
     }
 }
